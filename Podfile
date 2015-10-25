@@ -11,6 +11,7 @@ target 'tm' do
     pod 'AFNetworking'
     pod 'ionicons'
     pod 'MBProgressHUD'
+    pod 'AVOSCloud'
 end
 
 target 'tmTests' do

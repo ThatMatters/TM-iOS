@@ -20,6 +20,7 @@ PODS:
   - AFNetworking/UIKit (2.6.0):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
+  - AVOSCloud (3.1.4)
   - Crashlytics (3.3.4)
   - Fabric (1.5.5):
     - Fabric/Base (= 1.5.5)
@@ -31,6 +32,7 @@ PODS:
 
 DEPENDENCIES:
   - AFNetworking
+  - AVOSCloud
   - Crashlytics
   - Fabric
   - ionicons
@@ -40,6 +42,7 @@ DEPENDENCIES:
 
 SPEC CHECKSUMS:
   AFNetworking: 79f7eb1a0fcfa7beb409332b2ca49afe9ce53b05
+  AVOSCloud: 2be1640178facaac8343d67ed4d5348f4dffecd7
   Crashlytics: 41c082440d2e14da444186fff65e79c0b4b35d4c
   Fabric: 190bf1a6eb65f7500de1347d027d2e59a7e53db1
   ionicons: 5062e3d28d955e2f68cf2b11df2e194c5e6c6147

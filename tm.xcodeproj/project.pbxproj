@@ -40,6 +40,7 @@
 		051686EB1BDCA4D40011EDA5 /* DiscoveryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscoveryViewController.m; sourceTree = "<group>"; };
 		051686ED1BDCA4DA0011EDA5 /* UIColor+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Helper.h"; sourceTree = "<group>"; };
 		051686EE1BDCA4DA0011EDA5 /* UIColor+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Helper.m"; sourceTree = "<group>"; };
+		051686F01BDCD3880011EDA5 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		0545C28F1BDC9DE800F90646 /* tm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0545C2931BDC9DE800F90646 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0545C2951BDC9DE800F90646 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -155,6 +156,7 @@
 		0545C2911BDC9DE800F90646 /* tm */ = {
 			isa = PBXGroup;
 			children = (
+				051686F01BDCD3880011EDA5 /* Constants.h */,
 				051686E91BDCA4930011EDA5 /* Categories */,
 				051686E81BDCA48B0011EDA5 /* Additions */,
 				051686E71BDCA4850011EDA5 /* Utils */,
@@ -484,6 +486,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "a2ed4957-aa61-4c16-90a0-fca031014ed7";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -520,6 +523,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "a2ed4957-aa61-4c16-90a0-fca031014ed7";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};

@@ -21,6 +21,10 @@
 #define IS_IPHONE_6 (IS_IPHONE && SCREEN_MAX_LENGTH == 667.0)
 #define IS_IPHONE_6P (IS_IPHONE && SCREEN_MAX_LENGTH == 736.0)
 
+// AVOSCloud
+#define AVOSAppId @"dgeBvIiUDuAUJg0sxFYb0Y3Q"
+#define AVOSAppKey @"lujbSLcbR5DS6As48HNOpnKG"
+
 /**
  *  通知
  */
