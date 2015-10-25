@@ -7,14 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		051686EC1BDCA4D40011EDA5 /* DiscoveryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 051686EB1BDCA4D40011EDA5 /* DiscoveryViewController.m */; };
+		051686EF1BDCA4DA0011EDA5 /* UIColor+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 051686EE1BDCA4DA0011EDA5 /* UIColor+Helper.m */; };
 		0545C2941BDC9DE800F90646 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0545C2931BDC9DE800F90646 /* main.m */; };
 		0545C2971BDC9DE800F90646 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0545C2961BDC9DE800F90646 /* AppDelegate.m */; };
-		0545C29A1BDC9DE800F90646 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0545C2991BDC9DE800F90646 /* ViewController.m */; };
-		0545C29D1BDC9DE800F90646 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0545C29B1BDC9DE800F90646 /* Main.storyboard */; };
 		0545C29F1BDC9DE800F90646 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0545C29E1BDC9DE800F90646 /* Assets.xcassets */; };
 		0545C2A21BDC9DE800F90646 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0545C2A01BDC9DE800F90646 /* LaunchScreen.storyboard */; };
 		0545C2AD1BDC9DE800F90646 /* tmTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0545C2AC1BDC9DE800F90646 /* tmTests.m */; };
 		0545C2B81BDC9DE800F90646 /* tmUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0545C2B71BDC9DE800F90646 /* tmUITests.m */; };
+		DFE80EAC9F4FD8A89A623C26 /* libPods-tm.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D6E447FD7C50ACF0990EA127 /* libPods-tm.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,13 +36,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		051686EA1BDCA4D40011EDA5 /* DiscoveryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoveryViewController.h; sourceTree = "<group>"; };
+		051686EB1BDCA4D40011EDA5 /* DiscoveryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscoveryViewController.m; sourceTree = "<group>"; };
+		051686ED1BDCA4DA0011EDA5 /* UIColor+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Helper.h"; sourceTree = "<group>"; };
+		051686EE1BDCA4DA0011EDA5 /* UIColor+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Helper.m"; sourceTree = "<group>"; };
 		0545C28F1BDC9DE800F90646 /* tm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0545C2931BDC9DE800F90646 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0545C2951BDC9DE800F90646 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0545C2961BDC9DE800F90646 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0545C2981BDC9DE800F90646 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0545C2991BDC9DE800F90646 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		0545C29C1BDC9DE800F90646 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0545C29E1BDC9DE800F90646 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0545C2A11BDC9DE800F90646 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0545C2A31BDC9DE800F90646 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +53,9 @@
 		0545C2B31BDC9DE800F90646 /* tmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tmUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0545C2B71BDC9DE800F90646 /* tmUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tmUITests.m; sourceTree = "<group>"; };
 		0545C2B91BDC9DE800F90646 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F421547FB79C17DF51F9615 /* Pods-tm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tm.release.xcconfig"; path = "Pods/Target Support Files/Pods-tm/Pods-tm.release.xcconfig"; sourceTree = "<group>"; };
+		4167267BAE797D2CCB743627 /* Pods-tm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tm.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tm/Pods-tm.debug.xcconfig"; sourceTree = "<group>"; };
+		D6E447FD7C50ACF0990EA127 /* libPods-tm.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-tm.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFE80EAC9F4FD8A89A623C26 /* libPods-tm.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +84,52 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		051686E41BDCA4720011EDA5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				051686EA1BDCA4D40011EDA5 /* DiscoveryViewController.h */,
+				051686EB1BDCA4D40011EDA5 /* DiscoveryViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		051686E51BDCA4780011EDA5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		051686E61BDCA47F0011EDA5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		051686E71BDCA4850011EDA5 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		051686E81BDCA48B0011EDA5 /* Additions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Additions;
+			sourceTree = "<group>";
+		};
+		051686E91BDCA4930011EDA5 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				051686ED1BDCA4DA0011EDA5 /* UIColor+Helper.h */,
+				051686EE1BDCA4DA0011EDA5 /* UIColor+Helper.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
 		0545C2861BDC9DE800F90646 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +137,8 @@
 				0545C2AB1BDC9DE800F90646 /* tmTests */,
 				0545C2B61BDC9DE800F90646 /* tmUITests */,
 				0545C2901BDC9DE800F90646 /* Products */,
+				CF4598C13DC45BCEB53391FC /* Pods */,
+				683CDE5A955A3849F471BC45 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,14 +155,14 @@
 		0545C2911BDC9DE800F90646 /* tm */ = {
 			isa = PBXGroup;
 			children = (
+				051686E91BDCA4930011EDA5 /* Categories */,
+				051686E81BDCA48B0011EDA5 /* Additions */,
+				051686E71BDCA4850011EDA5 /* Utils */,
+				051686E61BDCA47F0011EDA5 /* Views */,
+				051686E51BDCA4780011EDA5 /* Models */,
+				051686E41BDCA4720011EDA5 /* Controllers */,
 				0545C2951BDC9DE800F90646 /* AppDelegate.h */,
 				0545C2961BDC9DE800F90646 /* AppDelegate.m */,
-				0545C2981BDC9DE800F90646 /* ViewController.h */,
-				0545C2991BDC9DE800F90646 /* ViewController.m */,
-				0545C29B1BDC9DE800F90646 /* Main.storyboard */,
-				0545C29E1BDC9DE800F90646 /* Assets.xcassets */,
-				0545C2A01BDC9DE800F90646 /* LaunchScreen.storyboard */,
-				0545C2A31BDC9DE800F90646 /* Info.plist */,
 				0545C2921BDC9DE800F90646 /* Supporting Files */,
 			);
 			path = tm;
@@ -117,6 +171,9 @@
 		0545C2921BDC9DE800F90646 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0545C29E1BDC9DE800F90646 /* Assets.xcassets */,
+				0545C2A01BDC9DE800F90646 /* LaunchScreen.storyboard */,
+				0545C2A31BDC9DE800F90646 /* Info.plist */,
 				0545C2931BDC9DE800F90646 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -140,6 +197,23 @@
 			path = tmUITests;
 			sourceTree = "<group>";
 		};
+		683CDE5A955A3849F471BC45 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D6E447FD7C50ACF0990EA127 /* libPods-tm.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF4598C13DC45BCEB53391FC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4167267BAE797D2CCB743627 /* Pods-tm.debug.xcconfig */,
+				2F421547FB79C17DF51F9615 /* Pods-tm.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +221,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0545C2BC1BDC9DE800F90646 /* Build configuration list for PBXNativeTarget "tm" */;
 			buildPhases = (
+				B7A0CE8F0210649E2E375137 /* Check Pods Manifest.lock */,
 				0545C28B1BDC9DE800F90646 /* Sources */,
 				0545C28C1BDC9DE800F90646 /* Frameworks */,
 				0545C28D1BDC9DE800F90646 /* Resources */,
+				56031623447CE2FE2882B90E /* Embed Pods Frameworks */,
+				314FD2B1E9B0F88337562821 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,6 +284,7 @@
 				TargetAttributes = {
 					0545C28E1BDC9DE800F90646 = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = N26JLKH94G;
 					};
 					0545C2A71BDC9DE800F90646 = {
 						CreatedOnToolsVersion = 7.1;
@@ -245,7 +323,6 @@
 			files = (
 				0545C2A21BDC9DE800F90646 /* LaunchScreen.storyboard in Resources */,
 				0545C29F1BDC9DE800F90646 /* Assets.xcassets in Resources */,
-				0545C29D1BDC9DE800F90646 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,14 +342,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		314FD2B1E9B0F88337562821 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tm/Pods-tm-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		56031623447CE2FE2882B90E /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tm/Pods-tm-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7A0CE8F0210649E2E375137 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0545C28B1BDC9DE800F90646 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0545C29A1BDC9DE800F90646 /* ViewController.m in Sources */,
+				051686EC1BDCA4D40011EDA5 /* DiscoveryViewController.m in Sources */,
 				0545C2971BDC9DE800F90646 /* AppDelegate.m in Sources */,
 				0545C2941BDC9DE800F90646 /* main.m in Sources */,
+				051686EF1BDCA4DA0011EDA5 /* UIColor+Helper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,14 +434,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		0545C29B1BDC9DE800F90646 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0545C29C1BDC9DE800F90646 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0545C2A01BDC9DE800F90646 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -409,9 +527,12 @@
 		};
 		0545C2BD1BDC9DE800F90646 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4167267BAE797D2CCB743627 /* Pods-tm.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = tm/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hustlzp.tm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -420,9 +541,12 @@
 		};
 		0545C2BE1BDC9DE800F90646 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F421547FB79C17DF51F9615 /* Pods-tm.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = tm/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hustlzp.tm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -496,6 +620,7 @@
 				0545C2BE1BDC9DE800F90646 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0545C2BF1BDC9DE800F90646 /* Build configuration list for PBXNativeTarget "tmTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +629,7 @@
 				0545C2C11BDC9DE800F90646 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0545C2C21BDC9DE800F90646 /* Build configuration list for PBXNativeTarget "tmUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +638,7 @@
 				0545C2C41BDC9DE800F90646 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

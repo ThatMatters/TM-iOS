@@ -6,6 +6,7 @@
 //  Copyright © 2015年 hustlzp. All rights reserved.
 //
 
+#import "DiscoveryViewController.h"
 #import "AppDelegate.h"
 
 @interface AppDelegate ()
@@ -16,7 +17,12 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    UIViewController *controller = [DiscoveryViewController new];
+    [self.window setRootViewController:controller];
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

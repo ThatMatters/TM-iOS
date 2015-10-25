@@ -6,13 +6,13 @@
 //  Copyright © 2015年 hustlzp. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "DiscoveryViewController.h"
 
-@interface ViewController ()
+@interface DiscoveryViewController ()
 
 @end
 
-@implementation ViewController
+@implementation DiscoveryViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
